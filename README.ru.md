@@ -12,7 +12,18 @@
 
 **[Скачать APK](https://github.com/Pum3l0/MTTscoreboard/releases)** · [Все скриншоты](artwork/screenshots) · [GPL-3.0](LICENSE)
 
-<img src="artwork/screenshots/horizontal_board.jpg" alt="Табло в альбомной ориентации" width="640">
+## Скриншоты
+
+<p align="center">
+  <img src="artwork/screenshots/horizontal_board.jpg" alt="Горизонтальное табло" width="720">
+</p>
+
+<p align="center">
+  <img src="artwork/screenshots/menu.jpg" alt="Главная" width="170">
+  <img src="artwork/screenshots/vertical_board.jpg" alt="Вертикальное табло" width="170">
+  <img src="artwork/screenshots/final_matchscore.jpg" alt="Результат матча" width="170">
+  <img src="artwork/screenshots/match_history.jpg" alt="История матчей" width="170">
+</p>
 
 ## Сборка
 
