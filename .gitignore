@@ -27,6 +27,12 @@ key.properties
 !.env.example
 /.aws/
 /.codex/
+/.agents/
+/skills-lock.json
+
+# Local release notes and instructions
+/RELEASING.md
+/RELEASE_NOTES.md
 
 # JVM dumps, logs and desktop metadata
 *.hprof

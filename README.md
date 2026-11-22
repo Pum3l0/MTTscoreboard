@@ -33,4 +33,4 @@ With JDK 17 and Android SDK 37 installed, open the project in Android Studio or 
 ./gradlew :app:assembleDebug :app:testDebugUnitTest
 ```
 
-By [Pum3l0](https://pumelo.site) · [Release guide](RELEASING.md)
+By [Pum3l0](https://pumelo.site)

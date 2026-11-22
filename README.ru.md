@@ -33,4 +33,4 @@
 ./gradlew :app:assembleDebug :app:testDebugUnitTest
 ```
 
-Автор [Pum3l0](https://pumelo.site) · [Инструкция по релизу](RELEASING.md)
+Автор [Pum3l0](https://pumelo.site)
