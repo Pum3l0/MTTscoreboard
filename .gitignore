@@ -1,0 +1,37 @@
+# Gradle, Kotlin and Android Studio
+.gradle/
+.kotlin/
+.idea/
+*.iml
+build/
+.externalNativeBuild/
+.cxx/
+captures/
+local.properties
+
+# App packages and signing material
+*.apk
+*.aab
+*.apks
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+key.properties
+
+# Local credentials and tooling
+.env
+.env.*
+!.env.example
+/.aws/
+/.codex/
+
+# JVM dumps, logs and desktop metadata
+*.hprof
+hs_err_pid*
+replay_pid*
+*.log
+.DS_Store
+Thumbs.db

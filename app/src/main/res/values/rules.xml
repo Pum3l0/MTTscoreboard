@@ -1,0 +1,63 @@
+<resources>
+    <string name="rules_title">Правила настольного тенниса</string>
+    <string name="rules_link">Правила игры</string>
+    <string name="rules_settings_summary">Счёт, подача и спорные розыгрыши</string>
+    <string name="rules_search">Поиск по правилам</string>
+    <string name="rules_search_example">Например, сетка или 10:10</string>
+    <string name="clear_search">Очистить поиск</string>
+    <string name="rules_no_matches">Ничего не найдено. Попробуй более короткий запрос.</string>
+    <string name="rules_source">Официальные правила ITTF</string>
+    <string name="rules_expanded">Раздел открыт</string>
+    <string name="rules_collapsed">Раздел закрыт</string>
+
+    <string name="rule_score">Счёт и формат матча</string>
+    <string name="rule_score_keywords">счёт очки партия сет гейм до скольки победа 10:10 11:10 12:10 раунд best of bo3 bo5 bo7</string>
+    <string name="rule_score_game">Когда заканчивается партия</string>
+    <string name="rule_score_game_body">Для победы нужно набрать минимум 11 очков и опережать соперника как минимум на два. При 10:10 игра продолжается: 11:10 ещё недостаточно, а 12:10 уже завершает партию.</string>
+    <string name="rule_score_match">Как выиграть матч</string>
+    <string name="rule_score_match_body">Матч играют до большинства из заранее выбранного нечётного числа партий. Например, в матче из максимум трёх партий побеждает тот, кто первым выиграл две.</string>
+
+    <string name="rule_service_order">Порядок подачи</string>
+    <string name="rule_service_order_keywords">подача сменить менять подаёт сервер очередь жребий монетка 10:10 после двух первый кто следующий очерёдность</string>
+    <string name="rule_first_service">Кто подаёт первым</string>
+    <string name="rule_first_service_body">Жребий даёт право выбрать подачу, приём или сторону стола. Соперник выбирает из оставшегося. В следующей партии первым подаёт тот, кто принимал первым в предыдущей.</string>
+    <string name="rule_service_rotation">Когда меняется подающий</string>
+    <string name="rule_service_rotation_body">Обычно каждый подаёт два розыгрыша подряд. Когда счёт доходит до 10:10, игроки подают по одному разу до конца партии.</string>
+
+    <string name="rule_serve">Как правильно подать</string>
+    <string name="rule_serve_keywords">подачу подавать ладонь подброс высота 16 см сантиметров вертикаль закрывать видимость вращение отскок подача</string>
+    <string name="rule_toss">Подброс и видимость</string>
+    <string name="rule_toss_body">Начни с мяча на открытой неподвижной ладони. Подбрось его почти вертикально, без вращения и минимум на 16 см, затем ударь на падении. До удара мяч должен оставаться выше стола, за задней линией и видимым для принимающего.</string>
+    <string name="rule_serve_bounce">Отскок при подаче</string>
+    <string name="rule_serve_bounce_body">Мяч сначала касается своей половины, затем половины соперника. В одиночной игре подавать по диагонали необязательно.</string>
+
+    <string name="rule_let">Сетка и переигровка</string>
+    <string name="rule_let_keywords">сетку сетка лет let переподача переиграть повтор помеха не готов прервали ноль</string>
+    <string name="rule_net_on_serve">Мяч задел сетку на подаче</string>
+    <string name="rule_net_on_serve_body">Правильную во всём остальном подачу после касания сетки переигрывают. Если мяч после сетки ушёл мимо, это ошибка подачи. Во время обычного розыгрыша касание сетки допустимо, если мяч попал на половину соперника.</string>
+    <string name="rule_interruptions">Когда розыгрыш повторяют</string>
+    <string name="rule_interruptions_body">Очко не начисляют, если принимающий не был готов и не пробовал ударить по мячу. Розыгрыш также могут остановить и повторить из-за внешней помехи.</string>
+
+    <string name="rule_rally">Розыгрыш и спорные мячи</string>
+    <string name="rule_rally_keywords">аут ребро кромка край бок стол касание рукой двойной удар ракетка блок мяч очко</string>
+    <string name="rule_point">Когда начисляют очко</string>
+    <string name="rule_point_body">Очко получает соперник игрока, который ошибся на подаче или не вернул мяч на игровую поверхность другой половины. Преднамеренный двойной удар тоже считается ошибкой.</string>
+    <string name="rule_edge">Край или боковина</string>
+    <string name="rule_edge_body">Касание верхнего края стола считается попаданием. Вертикальная боковина не входит в игровую поверхность.</string>
+    <string name="rule_contact">Касание стола и сетки</string>
+    <string name="rule_contact_body">Игрок проигрывает очко, если во время розыгрыша коснулся игровой поверхности свободной рукой, сдвинул стол или задел сетку либо её крепление.</string>
+
+    <string name="rule_ends">Смена сторон</string>
+    <string name="rule_ends_keywords">поменять сменить стороны местами половина решающая последняя партия 5 пять очков конец</string>
+    <string name="rule_change_ends">Между партиями</string>
+    <string name="rule_change_ends_body">После каждой партии игроки переходят на противоположные стороны стола.</string>
+    <string name="rule_final_game">В решающей партии</string>
+    <string name="rule_final_game_body">В последней возможной партии матча игроки меняются сторонами, когда один из них впервые набрал 5 очков. На табло можно нажать «Стороны» и переставить панели, сохранив счёт и подачу.</string>
+
+    <string name="rule_doubles">Парная игра</string>
+    <string name="rule_doubles_keywords">двое два на два пара парная диагональ правая половина партнёр очередь приём отбивать</string>
+    <string name="rule_doubles_serve">Подача по диагонали</string>
+    <string name="rule_doubles_serve_body">В парной игре мяч должен отскочить от правой половины на стороне подающего и правой половины на стороне принимающих.</string>
+    <string name="rule_doubles_turns">Кто отбивает мяч</string>
+    <string name="rule_doubles_turns_body">После подачи и приёма партнёры бьют по очереди. При смене подачи прежний принимающий становится подающим, а приём переходит к партнёру прежнего подающего. В решающей партии порядок приёма меняется у пары, которой предстоит принимать, когда одна из пар набирает 5 очков.</string>
+</resources>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="rules_title">Table tennis rules</string>
+    <string name="rules_link">Rules of play</string>
+    <string name="rules_settings_summary">Scoring, serving, and disputed rallies</string>
+    <string name="rules_search">Search the rules</string>
+    <string name="rules_search_example">Try net or 10:10</string>
+    <string name="clear_search">Clear search</string>
+    <string name="rules_no_matches">No results. Try a shorter search.</string>
+    <string name="rules_source">Official ITTF rules</string>
+    <string name="rules_expanded">Section expanded</string>
+    <string name="rules_collapsed">Section collapsed</string>
+
+    <string name="rule_score">Scoring and match format</string>
+    <string name="rule_score_keywords">score points game set win deuce 10:10 10-10 11:10 12:10 best of bo3 bo5 bo7</string>
+    <string name="rule_score_game">When a game ends</string>
+    <string name="rule_score_game_body">To win a game, a player must score at least 11 points and lead by at least two. At 10–10, play continues. A score of 11–10 is insufficient, but 12–10 wins the game.</string>
+    <string name="rule_score_match">How to win a match</string>
+    <string name="rule_score_match_body">A match is the best of an agreed odd number of games. In a best-of-three match, for example, the first player to win two games wins the match.</string>
+
+    <string name="rule_service_order">Service order</string>
+    <string name="rule_service_order_keywords">serve server receive receiver rotation order alternate toss coin 10:10 deuce first after two next</string>
+    <string name="rule_first_service">Who serves first</string>
+    <string name="rule_first_service_body">A draw determines who gets first choice of serving, receiving, or end of the table. The other player chooses from the options left. The first receiver of one game serves first in the next.</string>
+    <string name="rule_service_rotation">When service changes</string>
+    <string name="rule_service_rotation_body">Each player normally serves for two consecutive rallies. At 10–10, service alternates after every point until the game ends.</string>
+
+    <string name="rule_serve">Legal service</string>
+    <string name="rule_serve_keywords">serve service palm toss height 16 cm vertical hidden visible spin bounce</string>
+    <string name="rule_toss">Toss and visibility</string>
+    <string name="rule_toss_body">Start with the ball resting on an open, still palm. Toss it nearly vertically without spin so it rises at least 16 cm, then strike it as it falls. Until it is struck, the ball must stay above the playing surface, behind the end line, and visible to the receiver.</string>
+    <string name="rule_serve_bounce">Where the serve bounces</string>
+    <string name="rule_serve_bounce_body">The ball must bounce first on the side of the server and then on the side of the receiver. A singles serve may go to either half of the opposing court.</string>
+
+    <string name="rule_let">Net serves and lets</string>
+    <string name="rule_let_keywords">net let re-serve replay interruption receiver not ready interference</string>
+    <string name="rule_net_on_serve">The ball touches the net on service</string>
+    <string name="rule_net_on_serve_body">Replay a serve that touches the net assembly if the serve is otherwise legal. If the ball touches the net and misses the receiving court, it is a service fault. During a rally, a return may touch the net and still be legal if it lands on the opposing court.</string>
+    <string name="rule_interruptions">When to replay a rally</string>
+    <string name="rule_interruptions_body">The rally is a let if the receiver was not ready and made no attempt to strike the ball. Play may also be stopped and replayed because of outside interference.</string>
+
+    <string name="rule_rally">Rallies and disputed balls</string>
+    <string name="rule_rally_keywords">out edge side table hand double hit racket paddle volley ball point contact</string>
+    <string name="rule_point">When a point is awarded</string>
+    <string name="rule_point_body">A player wins the point if the opponent serves incorrectly or fails to return the ball to the opposing playing surface. Deliberately striking the ball twice in succession also loses the point.</string>
+    <string name="rule_edge">Edge or side</string>
+    <string name="rule_edge_body">A ball that touches the top edge is in. The vertical side of the table is outside the playing surface.</string>
+    <string name="rule_contact">Touching the table or net</string>
+    <string name="rule_contact_body">A player loses the point if, during a rally, they touch the playing surface with their free hand, move the table, or touch the net assembly.</string>
+
+    <string name="rule_ends">Changing ends</string>
+    <string name="rule_ends_keywords">swap sides change ends deciding final last game five 5 points</string>
+    <string name="rule_change_ends">Between games</string>
+    <string name="rule_change_ends_body">After each game, players switch to opposite ends of the table.</string>
+    <string name="rule_final_game">In the deciding game</string>
+    <string name="rule_final_game_body">In the last possible game of a match, players change ends when either player first reaches five points. Tap “Swap sides” on the scoreboard to move the panels while preserving the score and server.</string>
+
+    <string name="rule_doubles">Doubles</string>
+    <string name="rule_doubles_keywords">pairs two versus two diagonal right court partner receive order alternating</string>
+    <string name="rule_doubles_serve">Diagonal service</string>
+    <string name="rule_doubles_serve_body">In doubles, the ball must bounce in the right half-court of the serving pair and then in the right half-court of the receiving pair.</string>
+    <string name="rule_doubles_turns">Who strikes the ball</string>
+    <string name="rule_doubles_turns_body">After service and receive, partners alternate returns. When service changes, the previous receiver serves and the previous server’s partner receives. In the deciding game, the pair due to receive next changes its receiving order when either pair first reaches five points.</string>
+</resources>
