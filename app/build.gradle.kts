@@ -1,4 +1,5 @@
 import java.net.URI
+import java.util.Properties
 import org.gradle.work.DisableCachingByDefault
 
 plugins {
@@ -6,6 +7,8 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
     id("com.google.devtools.ksp")
 }
+
+val localSigning = rootProject.file("signing.properties")
 
 android {
     namespace = "io.github.pum3l0.scoreboard"
@@ -28,6 +31,17 @@ android {
 
     buildFeatures {
         compose = true
+    }
+
+    if (localSigning.isFile) {
+        val keys = Properties().apply { localSigning.inputStream().use { load(it) } }
+        val releaseKeys = signingConfigs.create("release") {
+            storeFile = rootProject.file(requireNotNull(keys.getProperty("storeFile")))
+            storePassword = requireNotNull(keys.getProperty("storePassword"))
+            keyAlias = requireNotNull(keys.getProperty("keyAlias"))
+            keyPassword = requireNotNull(keys.getProperty("keyPassword"))
+        }
+        buildTypes.getByName("release").signingConfig = releaseKeys
     }
 }
 
